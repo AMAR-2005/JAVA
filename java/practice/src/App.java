@@ -1,5 +1,5 @@
 import java.util.*;
-//AMAR
+//First code
 public class App {
     public static boolean p(int n){
         if(n<=1)
