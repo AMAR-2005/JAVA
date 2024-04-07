@@ -2,7 +2,7 @@ import java.util.*;
 class Main{
     public static void main(String[] args){
         Scanner s=new Scanner(System.in);
-        int i=s.nextInt();
-        System.out.println(i);
+        int v=s.nextInt();
+        System.out.println(v);
     }
 }
