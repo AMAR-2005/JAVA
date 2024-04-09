@@ -18,7 +18,6 @@ class file{
 
     }
     public static void main(String[] args)throws IOException{
-        FileWriter fw=new FileWriter("sam.txt");
         Scanner s=new Scanner(System.in);
         String b=s.nextLine();
         app(b);
