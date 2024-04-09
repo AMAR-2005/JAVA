@@ -1,9 +1,11 @@
 import java.util.*;
 import java.io.*;
-class Main{
+class file{
     public static void app(String s)throws IOException{
 
         FileWriter fw=new FileWriter("sam.txt");
+        String a="Hello! ";
+        fw.write(a);
         fw.write(s);
         System.out.print("APPENDED\n");
         fw.close();
@@ -18,9 +20,6 @@ class Main{
     public static void main(String[] args)throws IOException{
         FileWriter fw=new FileWriter("sam.txt");
         Scanner s=new Scanner(System.in);
-        String a="Hello! ";
-        fw.write(a);
-        fw.close();
         String b=s.nextLine();
         app(b);
     }
